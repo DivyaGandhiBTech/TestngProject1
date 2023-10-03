@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-03T02:10:50Z" name="Suite" finished-at="2023-10-03T02:12:12Z" duration-ms="81634">
+    <groups>
+      <group name="orange">
+        <method signature="healthcaretest.Searchanyone()[pri:-2, instance:org.healthcare.healthcaretest@4d15107f]" name="Searchanyone" class="org.healthcare.healthcaretest"/>
+      </group> <!-- orange -->
+      <group name="smoke">
+        <method signature="healthcaretest.loginbutton()[pri:-7, instance:org.healthcare.healthcaretest@4d15107f]" name="loginbutton" class="org.healthcare.healthcaretest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="healthcaretest.loginbutton()[pri:-7, instance:org.healthcare.healthcaretest@4d15107f]" name="loginbutton" class="org.healthcare.healthcaretest"/>
+        <method signature="healthcaretest.saveblood()[pri:10, instance:org.healthcare.healthcaretest@4d15107f]" name="saveblood" class="org.healthcare.healthcaretest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-10-03T02:10:50Z" name="Test" finished-at="2023-10-03T02:12:12Z" duration-ms="81634">
+      <class name="org.healthcare.healthcaretest">
+        <test-method is-config="true" signature="BrowserOpen()[pri:0, instance:org.healthcare.healthcaretest@4d15107f]" started-at="2023-10-03T02:10:50Z" name="BrowserOpen" finished-at="2023-10-03T02:10:59Z" duration-ms="9054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserOpen -->
+        <test-method is-config="true" signature="startTime()[pri:0, instance:org.healthcare.healthcaretest@4d15107f]" started-at="2023-10-03T02:10:59Z" name="startTime" finished-at="2023-10-03T02:11:03Z" duration-ms="3866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method signature="loginbutton()[pri:-7, instance:org.healthcare.healthcaretest@4d15107f]" started-at="2023-10-03T02:11:03Z" name="loginbutton" finished-at="2023-10-03T02:11:18Z" duration-ms="14954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbutton -->
+        <test-method is-config="true" signature="startTime()[pri:0, instance:org.healthcare.healthcaretest@4d15107f]" started-at="2023-10-03T02:11:18Z" name="startTime" finished-at="2023-10-03T02:11:19Z" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method signature="Searchanyone()[pri:-2, instance:org.healthcare.healthcaretest@4d15107f]" started-at="2023-10-03T02:11:19Z" name="Searchanyone" finished-at="2023-10-03T02:11:21Z" duration-ms="2713" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+check the credential expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+check the credential expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at org.healthcare.healthcaretest.Searchanyone(healthcaretest.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchanyone -->
+        <test-method is-config="true" signature="startTime()[pri:0, instance:org.healthcare.healthcaretest@4d15107f]" started-at="2023-10-03T02:11:51Z" name="startTime" finished-at="2023-10-03T02:11:52Z" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method signature="saveblood()[pri:10, instance:org.healthcare.healthcaretest@4d15107f]" started-at="2023-10-03T02:11:52Z" name="saveblood" finished-at="2023-10-03T02:12:02Z" duration-ms="10128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveblood -->
+        <test-method is-config="true" signature="startTime()[pri:0, instance:org.healthcare.healthcaretest@4d15107f]" started-at="2023-10-03T02:12:02Z" name="startTime" finished-at="2023-10-03T02:12:02Z" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method signature="saveblood()[pri:10, instance:org.healthcare.healthcaretest@4d15107f]" started-at="2023-10-03T02:12:02Z" name="saveblood" finished-at="2023-10-03T02:12:06Z" duration-ms="4012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveblood -->
+        <test-method is-config="true" signature="startTime()[pri:0, instance:org.healthcare.healthcaretest@4d15107f]" started-at="2023-10-03T02:12:06Z" name="startTime" finished-at="2023-10-03T02:12:07Z" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method signature="saveblood()[pri:10, instance:org.healthcare.healthcaretest@4d15107f]" started-at="2023-10-03T02:12:07Z" name="saveblood" finished-at="2023-10-03T02:12:12Z" duration-ms="4516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveblood -->
+      </class> <!-- org.healthcare.healthcaretest -->
+      <class name="org.healthcare.Loginpage">
+        <test-method is-config="true" signature="BrowserOpen()[pri:0, instance:org.healthcare.Loginpage@7b4c50bc]" started-at="2023-10-03T02:11:21Z" name="BrowserOpen" finished-at="2023-10-03T02:11:34Z" duration-ms="12459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserOpen -->
+        <test-method is-config="true" signature="startTime()[pri:0, instance:org.healthcare.Loginpage@7b4c50bc]" started-at="2023-10-03T02:11:34Z" name="startTime" finished-at="2023-10-03T02:11:34Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method signature="lognemail()[pri:1, instance:org.healthcare.Loginpage@7b4c50bc]" started-at="2023-10-03T02:11:34Z" name="lognemail" finished-at="2023-10-03T02:11:51Z" duration-ms="16890" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid curencial expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid curencial expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.healthcare.Loginpage.lognemail(Loginpage.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lognemail -->
+      </class> <!-- org.healthcare.Loginpage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
